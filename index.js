@@ -13,11 +13,13 @@ function toggleBtn(x) {
 	if( x == document.getElementById("dropbtn1"))
     {
     	document.getElementById("buyToggleContent").classList.toggle("show");
+    	document.getElementById("sellToggleContent").classList.remove("show");
     }
 
     else if ( x == document.getElementById("dropbtn2") ) 
     {
     	document.getElementById("sellToggleContent").classList.toggle("show");
+    	document.getElementById("buyToggleContent").classList.remove("show");
     }
 }
 

@@ -107,6 +107,11 @@ body
 	animation-duration: 0.5s;
 }
 
+.hide
+{
+	display: none;
+}
+
 .topnav input[type=text] {
     float: right;
     padding: 6px;
