@@ -54,6 +54,7 @@ body
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
+	cursor: pointer;
 }
 
 .dropbtn:hover
@@ -93,8 +94,14 @@ body
 	color: white;
 }
 
-.dropdown:hover .dropdown-content
+/*.dropdown:hover .dropdown-content
 {
+	display: block;	
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+}*/
+
+.show {
 	display: block;	
 	animation-name: fadeIn;
 	animation-duration: 0.5s;
